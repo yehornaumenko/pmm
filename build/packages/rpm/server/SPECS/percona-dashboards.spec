@@ -43,7 +43,6 @@ install -d %{buildroot}%{_datadir}/%{name}
 install -d %{buildroot}%{_datadir}/%{name}/panels/pmm-app
 install -d %{buildroot}%{_datadir}/%{name}/setup-page
 
-cp -pa ./panels %{buildroot}%{_datadir}/%{name}
 cp -pa ./pmm-app/dist %{buildroot}%{_datadir}/%{name}/panels/pmm-app
 cp -rpa ./setup-page/build/* %{buildroot}%{_datadir}/%{name}/setup-page
 echo %{version} > %{buildroot}%{_datadir}/%{name}/VERSION
