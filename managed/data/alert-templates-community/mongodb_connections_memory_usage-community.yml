@@ -1,3 +1,5 @@
+# new test Template
+# second line 
 ---
 templates:
   - name: pmm_mongodb_connections_memory_usage
