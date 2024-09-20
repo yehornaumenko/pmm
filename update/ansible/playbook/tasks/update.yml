@@ -101,7 +101,7 @@
       command: percona-release enable telemetry release
       when: not ansible_check_mode
 
-    - name: Cleanup yum metadata
+    - name: Cleanup yum cache and metadata
       command: yum clean all
       become: true
       tags:
