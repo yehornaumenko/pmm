@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/percona/go-mysql/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/yehornaumenko/go-mysql/log"
 )
 
 var updateF = flag.Bool("update", false, "update golden .json files")

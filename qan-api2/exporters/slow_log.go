@@ -27,11 +27,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/percona/go-mysql/event"
-	slowlog "github.com/percona/go-mysql/log"
-	parser "github.com/percona/go-mysql/log/slow"
-	"github.com/percona/go-mysql/query"
 	"github.com/pkg/errors"
+	"github.com/yehornaumenko/go-mysql/event"
+	slowlog "github.com/yehornaumenko/go-mysql/log"
+	parser "github.com/yehornaumenko/go-mysql/log/slow"
+	"github.com/yehornaumenko/go-mysql/query"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 

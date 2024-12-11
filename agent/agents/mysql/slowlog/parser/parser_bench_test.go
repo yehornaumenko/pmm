@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/percona/go-mysql/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/yehornaumenko/go-mysql/log"
 )
 
 func BenchmarkParser(b *testing.B) {
