@@ -1,6 +1,6 @@
 module github.com/percona/pmm
 
-go 1.21
+go 1.21.5
 
 // Update saas with
 // go get -v github.com/percona-platform/saas@latest
@@ -59,7 +59,6 @@ require (
 	github.com/percona-platform/saas v0.0.0-20230728161159-ad6bdeb8a3d9
 	github.com/percona/dbaas-operator v0.1.6
 	github.com/percona/exporter_shared v0.7.4
-	github.com/percona/go-mysql v0.0.0-20210427141028-73d29c6da78c
 	github.com/percona/percona-toolkit v3.2.1+incompatible
 	github.com/percona/promconfig v0.2.5
 	github.com/pganalyze/pg_query_go/v2 v2.2.0
@@ -74,6 +73,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/objx v0.5.0
 	github.com/stretchr/testify v1.8.4
+	github.com/yehornaumenko/go-mysql v0.0.0-20241211151939-2479e792fb92
 	go.mongodb.org/mongo-driver v1.12.0
 	go.starlark.net v0.0.0-20230717150657-8a3343210976
 	golang.org/x/crypto v0.18.0

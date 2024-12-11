@@ -24,7 +24,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/percona/go-mysql/log"
+	"github.com/yehornaumenko/go-mysql/log"
 )
 
 type bytesReader struct {

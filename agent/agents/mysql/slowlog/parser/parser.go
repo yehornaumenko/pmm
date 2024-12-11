@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/percona/go-mysql/log"
+	"github.com/yehornaumenko/go-mysql/log"
 )
 
 // Regular expressions to match important lines in slow log.
